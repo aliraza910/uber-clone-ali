@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is Uber Clone website Project with Microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliraza910/uber-clone-ali.git"
+  },
+  "keywords": [
+    "uber",
+    "clone",
+    "MERN"
+  ],
+  "author": "Ali Raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliraza910/uber-clone-ali/issues"
+  },
+  "homepage": "https://github.com/aliraza910/uber-clone-ali#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
